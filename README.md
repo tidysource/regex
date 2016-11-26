@@ -9,3 +9,9 @@ Regex notes and snippets
 
 /[^]/
 ```
+
+## Prevent gready match
+```javascript
+//? after quantifier makes it non-greedy
+/a*?/
+```
